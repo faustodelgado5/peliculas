@@ -5,6 +5,9 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
     setSearchQuery(e.target.value);
   };
 
+  const hola = 0;
+  console.log(hola);
+
   return (
     <div>
       <input
